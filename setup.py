@@ -10,12 +10,10 @@ setup(
     include_package_data=True,
     install_requires=[
         "click",
-        "requests",
-        "scout.py"
     ],
     entry_points="""
         [console_scripts]
-        fng=fng.cli:cli
+        fng=fng.main:main
     """,
     author="datawire.io",
     author_email="dev@datawire.io",

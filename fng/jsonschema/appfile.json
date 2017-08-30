@@ -1,6 +1,11 @@
 {
   "type": "object",
   "properties": {
-    "application": {"type": "string"}
-  }
+    "application": {
+      "type": "string",
+      "description": "The name of the application"
+    }
+  },
+
+  "required": ["application"]
 }
